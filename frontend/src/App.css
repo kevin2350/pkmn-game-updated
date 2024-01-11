@@ -1,0 +1,23 @@
+body {
+    background-image: url('./images/background.png');
+    font-family: Verdana, sans-serif;
+}
+
+.btn, button {
+    font-family: "Lucida Console", monospace;
+    font-size: 100%;
+    border: none;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, .7);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
+
+.btn:hover {
+    background-color: white;
+    color: skyblue;
+}

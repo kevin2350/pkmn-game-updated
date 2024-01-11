@@ -1,0 +1,92 @@
+.play {
+    text-align: center;
+    background-color: rgb(243, 140, 140);
+    width: 70vh;
+    margin: 0 auto;
+    font-size: 150%;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    min-height: 60vh;
+}
+
+.round {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 20vh;
+    min-height: 1vh;
+    margin: 0 auto;
+    font-size: 150%;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Hidden {
+    filter: brightness(0) drop-shadow(6px 6px 5px #bbbbbb);
+    width: 25%;
+}
+
+.NotHidden {
+    filter: 0;
+    width: 25%;
+}
+
+.traits {
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.desc {
+    padding-top: 1vh;
+    font-size: 90%;
+}
+
+.submit {
+    margin-top: 3vh;
+}
+
+.ans {
+    font-size: 90%;
+    margin-bottom: 2vh;
+}
+
+.None {
+    display: none;
+}
+
+.Correct {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: rgb(0, 112, 0);
+}
+
+.Incorrect {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: rgb(148, 0, 0);
+}
+
+#pkmnWas {
+    margin-top: -2vh;
+}
+
+.Continue, .Restart, .Save {
+    display: inline;
+    font-family: "Lucida Console", monospace;
+    font-size: 90%;
+    border: none;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, .7);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2vh;
+}

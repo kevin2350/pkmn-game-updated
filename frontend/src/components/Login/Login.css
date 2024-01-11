@@ -1,0 +1,38 @@
+.login {
+    text-align: center;
+    background-color: rgb(255, 254, 241);
+    width: 70vh;
+    margin: 0 auto;
+    font-size: 150%;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    margin-top: 15vh;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.loginInput {
+    font-size: 90%;
+    margin-bottom: 2vh;
+}
+
+.loginSubmit {
+    margin-bottom: 8vh;
+    margin-top: 2vh;
+}
+
+.registerHere {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.goodLogin {
+    display: none;
+}
+
+.badLogin {
+    display: inline;
+    color: red;
+}

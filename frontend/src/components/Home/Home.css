@@ -1,0 +1,63 @@
+.home {
+    text-align: center;
+    background-color: rgb(255, 254, 241);
+    width: 70vh;
+    margin: 0 auto;
+    font-size: 150%;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    margin-top: 15vh;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.homeTitle{
+    margin-bottom: 6vh;
+}
+
+.menus {
+    font-family: "Lucida Console", monospace;
+    font-size: 100%;
+    border: none;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, .7);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
+
+.menus:hover {
+    background-color: white;
+    color: skyblue;
+}
+
+.loginHere {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.myScores {
+    margin-top: 12vh;
+    margin-bottom: 3vh;
+}
+
+.LoggedIn {
+    display: none;
+}
+
+.LoggedOut {
+    display: inline;
+}
+
+.LogoutFalse {
+    display: none;
+}
+
+.LogoutTrue {
+    display: inline;
+}

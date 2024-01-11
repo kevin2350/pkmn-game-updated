@@ -1,0 +1,20 @@
+.lbEntry {
+    text-align: center;
+    background: rgb(255,0,0);
+    background: linear-gradient(225deg, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%);
+    width: 40vh;
+    margin: 0 auto;
+    padding-top: 2vh;
+    margin-bottom: 5vh;
+    font-size: 150%;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lbEntry:nth-child(2n) {
+    background: rgb(228,118,118);
+    background: linear-gradient(45deg, rgba(228,118,118,1) 50%, rgba(255,255,255,1) 50%);
+}
